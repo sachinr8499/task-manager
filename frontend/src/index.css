@@ -1,0 +1,192 @@
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #252525;
+  color: #fff;
+}
+
+.show-tasks {
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.result-task-container {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.text-area-container {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.task-list-container {
+  padding: 0rem 5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.home-buttons {
+  padding: 0.5rem 39rem;
+}
+
+.text-area-popup-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.text-area-popup {
+  width: 30.2rem;
+  height: 18rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.task-title {
+  display: flex;
+}
+
+.task-heading {
+  font-size: 2rem;
+}
+
+.tasks-len {
+  width: 100%;
+  padding: 0.5rem 4rem;
+}
+
+.r-icon {
+  cursor: pointer;
+  margin: 0rem 0.2rem;
+}
+
+.task-icons {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  padding-top: 12px;
+}
+
+.text-area {
+  padding: 7px;
+  width: 452px;
+  height: 200px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.input_holder {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+input,
+button {
+  padding: 10px 20px;
+  background-color: #696969;
+  color: #fff;
+  outline: none;
+  border: none;
+}
+
+input {
+  width: 350px;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #4d4d4d;
+}
+
+.list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon:hover {
+  cursor: pointer;
+  color: #cfcfcf;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #0000006c;
+  display: grid;
+  place-items: center;
+}
+
+.popup {
+  position: relative;
+  background-color: #696969;
+  width: 50rem;
+  height: 29rem;
+  padding: 10px;
+}
+
+.cross {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.cross:hover {
+  color: #c4c4c4;
+}
+
+.popup h1 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.popup__input_holder {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+
+.popup__input_holder input,
+.popup__input_holder button {
+  background-color: #fff;
+  color: #000;
+}
+
+.popup__input_holder input::placeholder {
+  color: #383838;
+}
+
+.popup__input_holder button:hover {
+  background-color: #c4c4c4;
+}
